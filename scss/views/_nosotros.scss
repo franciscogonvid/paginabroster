@@ -10,7 +10,7 @@
 
 nav{
     .container{
-        display:flexbox;
+        display:block;
         height: 100%;
         margin: 0;
         width: 100%;
@@ -24,17 +24,17 @@ nav{
         justify-items: center;
         margin-top: 3%;
         text-align: center;
-        div{
-        }
+   
     }
 }
 
+#quienessomos{
+  .row{
+    font-style: oblique;
+    
 
-
-
-
-
-
+  }
+}
 
 
   footer {
