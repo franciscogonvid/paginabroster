@@ -60,6 +60,9 @@ section article {
   margin-top: 3%;
   text-align: center;
 }
+section article .image:hover {
+  transform: scale(1.15);
+}
 
 footer {
   display: grid;
@@ -234,6 +237,13 @@ nav div ul li a {
   height: 100vh;
   background-color: black;
   color: white;
+}
+
+nav .container {
+  display: flexbox;
+  height: 100%;
+  margin: 0;
+  width: 100%;
 }
 
 .container .row {

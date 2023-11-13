@@ -35,6 +35,8 @@ nav {
             @media (min-width: 768px) and (max-width: 991px) {
                 font-size: $text-size-lg; // Ajusta el tamaño del texto para pantallas más grandes
             }
+
+            
         }
     }
 
@@ -49,8 +51,13 @@ section {
         justify-items: center;
         margin-top: 3%;
         text-align: center;
+        
+        
 
+        .image:hover{
+            transform: scale(1.15);
 
+        }
     }
 }
 
