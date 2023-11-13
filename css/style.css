@@ -35,22 +35,22 @@ nav div ul li a {
 .titulo div h1 {
   min-width: auto;
   font-size: 4rem;
-  font-size: 4rem;
+  font-size: 2rem;
   transition: font-size 0.5s;
 }
-@media (max-width: 576px) {
+@media (min-width: 200px) and (max-width: 576px) {
   .titulo div h1 {
-    font-size: 3rem;
+    font-size: 1rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .titulo div h1 {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .titulo div h1 {
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 
@@ -90,24 +90,23 @@ nav div ul li a {
   font-style: italic;
 }
 
-.titulo div {
+.tituloc div {
   min-width: auto;
-  font-size: 4rem;
   font-size: 4rem;
   transition: font-size 0.5s;
 }
 @media (max-width: 576px) {
-  .titulo div {
+  .tituloc div {
     font-size: 3rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
-  .titulo div {
+  .tituloc div {
     font-size: 3rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-  .titulo div {
+  .tituloc div {
     font-size: 3rem;
   }
 }
@@ -116,6 +115,8 @@ nav div ul li a {
   align-items: center;
   align-content: center;
   margin-top: 3%;
+  margin-left: 0.5%;
+  margin-bottom: 2;
 }
 @media (max-width: 576px) {
   #fotomenu {
@@ -225,6 +226,40 @@ nav div ul li a {
     flex-direction: column; /* Cambia la dirección del flujo a columnas en pantallas pequeñas */
     align-items: center; /* Centra las columnas verticalmente */
   }
+}
+
+.nosotros {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.container .row {
+  justify-content: center;
+  justify-items: center;
+  margin-top: 3%;
+  text-align: center;
+}
+footer {
+  display: grid;
+  margin-top: 5%;
+}
+footer li {
+  color: black;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+}
+footer li:hover {
+  color: aliceblue;
+}
+
+.derechos {
+  align-items: center;
+  text-align: center;
+  font-family: "Sometype Mono", monospace;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -21,19 +21,19 @@ nav {
         h1 {
             min-width: auto;
             font-size: 4rem;
-            font-size: $text-size-lg; // Tamaño inicial del texto en relación con el ancho de la ventana
-            transition: font-size 0.5s; // Transición suave para el cambio de tamaño
+            font-size: $text-size-sm; // Tamaño inicial del texto en relación con el ancho de la ventana
+            transition: font-size 0.5s; 
 
-            @media (max-width: 576px) {
-                font-size: $text-size-md; // Ajusta el tamaño del texto para pantallas más pequeñas
+            @media  (min-width: 200px) and (max-width: 576px) {
+                font-size: $text-size-xs; // Ajusta el tamaño del texto para pantallas más pequeñas
             }
 
             @media (min-width: 576px) and (max-width: 767px) {
-                font-size: $text-size-md; // Ajusta el tamaño del texto para pantallas medianas
+                font-size: $text-size-sm; // Ajusta el tamaño del texto para pantallas medianas
             }
 
             @media (min-width: 768px) and (max-width: 991px) {
-                font-size: $text-size-md; // Ajusta el tamaño del texto para pantallas más grandes
+                font-size: $text-size-lg; // Ajusta el tamaño del texto para pantallas más grandes
             }
         }
     }

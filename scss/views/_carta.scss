@@ -18,11 +18,10 @@ nav {
 }
 
 
-.titulo {
+.tituloc {
     div {
-    
+            
             min-width: auto;
-            font-size: 4rem;
             font-size: $text-size-lg; // Tamaño inicial del texto en relación con el ancho de la ventana
             transition: font-size 0.5s; // Transición suave para el cambio de tamaño
 
@@ -47,6 +46,8 @@ nav {
     align-items: center;
     align-content: center;
     margin-top: 3%;
+    margin-left: 0.5%;
+    margin-bottom: 2;
 
     
     @media (max-width: 576px) {
