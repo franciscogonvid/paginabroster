@@ -42,5 +42,46 @@ nav {
 
 }
 
-
+.redessociales {
+    .container {
+      padding-top: 50px; /* Espaciado superior opcional, puedes ajustarlo según tus preferencias */
+      padding-bottom: 50px; /* Espaciado inferior opcional, puedes ajustarlo según tus preferencias */
+    }
+  
+    .row {
+      justify-content: center; /* Centra las columnas horizontalmente */
+      text-align: center; /* Centra el texto dentro de las columnas */
+      
+      .col {
+        margin-bottom: 20px; /* Espaciado entre columnas opcional, puedes ajustarlo según tus preferencias */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+  
+        h3 {
+          margin-bottom: 20px; /* Espaciado inferior para los encabezados h3 */
+        }
+  
+        img {
+          max-width: 100%; /* Imágenes responsivas, no se desbordarán de su contenedor */
+          height: auto; /* Evita que las imágenes se deformen en dispositivos pequeños */
+        }
+  
+        iframe {
+          width: 100%; /* Ancho del 100% para el iframe */
+          max-width: 100%; /* Evita que el iframe se desborde en dispositivos pequeños */
+          height: 350px; /* Altura fija, ajusta según tus preferencias */
+        }
+      }
+    }
+  
+    /* Estilos específicos para tamaños de pantalla pequeños */
+    @media (max-width: 767px) {
+      .row {
+        flex-direction: column; /* Cambia la dirección del flujo a columnas en pantallas pequeñas */
+        align-items: center; /* Centra las columnas verticalmente */
+      }
+    }
+  }
   
