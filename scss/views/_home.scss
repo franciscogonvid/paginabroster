@@ -1,0 +1,80 @@
+nav {
+
+    div {
+        ul {
+            li {
+                text-decoration: none;
+                font-family: "Bebas Neue", sans-serif;
+                font-size: 1.5rem;
+
+                a {
+                    font-style: italic;
+                }
+            }
+        }
+    }
+
+}
+
+.titulo {
+    div {
+        h1 {
+            min-width: auto;
+            font-size: 4rem;
+            font-size: $text-size-lg; // Tamaño inicial del texto en relación con el ancho de la ventana
+            transition: font-size 0.5s; // Transición suave para el cambio de tamaño
+
+            @media (max-width: 576px) {
+                font-size: $text-size-md; // Ajusta el tamaño del texto para pantallas más pequeñas
+            }
+
+            @media (min-width: 576px) and (max-width: 767px) {
+                font-size: $text-size-md; // Ajusta el tamaño del texto para pantallas medianas
+            }
+
+            @media (min-width: 768px) and (max-width: 991px) {
+                font-size: $text-size-md; // Ajusta el tamaño del texto para pantallas más grandes
+            }
+        }
+    }
+
+}
+
+
+
+
+section {
+    article {
+        justify-content: center;
+        justify-items: center;
+        margin-top: 3%;
+        text-align: center;
+
+
+    }
+}
+
+
+footer {
+    display: grid;
+    margin-top: 1%;
+
+    li {
+        color: black;
+        text-decoration: none;
+        font-family: 'Bebas Neue', sans-serif;
+
+        &:hover {
+            color: rgb(255, 255, 255);
+        }
+    }
+}
+
+footer {
+    .derechos {
+        align-items: center;
+        text-align: center;
+        font-family: 'Sometype Mono', monospace;
+        font-size: 12px;
+    }
+}
